@@ -4,7 +4,7 @@ body {
 
 /* ---------------Barra Navegación---------------- */
 
-#barra_navegacion {
+#nav-bar{
     
     display: flex;
     background: black;
@@ -16,7 +16,7 @@ body {
     height: 70px;
 }
 
-#logo {
+#header-img {
     width: 60px;
     height: 60px;    
 }
@@ -76,14 +76,14 @@ body {
 
 }
 
-.formulario {
+#form {
 
 display: flex;
 align-items: center;
 flex-direction: column;
 }
 
-.casilla_email {
+#email {
 
     width: 250px;
     margin: 0 auto;
@@ -128,9 +128,7 @@ flex-direction: column;
     margin-left: 10px;
 }
 
-.descripcion{
-    
-}
+
 
 .descripcion h3{
     font-family: 'Oswald', sans-serif;
@@ -147,13 +145,11 @@ flex-direction: column;
 }
 
 
-
-
-
-
 .icon-premiun {
     font-size: 70px;
     color: rgb(0,116,155);
+    padding-right: 40px;
+
 }
 
 .icon-delivery {
@@ -276,10 +272,21 @@ flex-direction: column;
 }
 
 
+@media (max-width: 800px) {
+
+    .img_guitar {
+
+        width: 100px;
+        height: 100px;
+  
+    }
+
+
+}
 
 
 @media (max-width: 600px) {
-    #barra_navegacion {
+    #nav-bar {
         padding-bottom: 50px;
     }
     .lista_navbar {
