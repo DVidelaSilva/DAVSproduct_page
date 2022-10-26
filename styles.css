@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(238,238,238);
+}
+
+
+#barra_navegacion {
+    display: flex;
+    justify-content: flex-end;
+    background: red;
+    width: 100%;
+    position: fixed;
+
+    
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    
+}
